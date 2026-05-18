@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>2D Chess Game</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<body>
+
+<div id="board"></div>
+<div id="popup" class="popup hidden">
+    <div class="popup-box">
+    <h2 id="winnerText">Winner</h2>
+    <button onclick="restartGame()">Play Again</button>
+    </div>
+</div>
+
+
+<script src="https://unpkg.com/chess.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
